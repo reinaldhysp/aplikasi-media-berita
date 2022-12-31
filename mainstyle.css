@@ -1,0 +1,183 @@
+html {
+    position: relative;
+}
+body {
+    background-image: url(media/backg.jpg);
+    background-size: 100%;
+    margin-bottom: 100px;
+}
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+} 
+.jumbotron {
+    background: none;
+    height: 440px;
+    text-align: center;
+}
+.jumbotron .display-4 {
+    margin-top: 150px;
+    font-family: Viga;
+    font-size: 28px;
+    text-shadow: 1px 1px 1px gainsboro;
+    margin-top: 28px;
+}
+.jumbotron img {
+    height: 230px;
+    width: 180px;
+    border: 5px solid gainsboro;
+}
+.jumbotron .text {
+    font-family: Viga;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px gainsboro;
+}
+.about h2 {
+    text-align: center;
+    font-family: Viga;
+    font-size: 25px;
+}
+.about hr {
+    width: 250px;
+    border-top: 4px solid black;
+}
+.about .col-sm-5{
+    text-align: justify;   
+}
+section {
+    min-height: 420px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: none;
+    padding-top: 10px;
+}
+footer p {
+    text-align: center;
+}
+.field1 {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 1em 4cm; 
+    text-align: left; 
+}
+.legend1 {
+    background: black;
+    color: white;
+    margin-bottom: 10px;
+    padding: 0.4em 0.4em;
+}
+.field2 {
+    width: 50%;
+    border: 1px solid black;
+}
+.legend2 {
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-bottom: 10px;
+    padding: 0.4em 0.4em;
+}
+.field3 {
+    width: 50%;
+    height: 170px;
+    border: 1px solid black;
+}
+.card-text {
+    text-align: justify;
+}
+.sect1 {
+    min-height: 610px;
+}
+.sect1 h2 {
+    text-align: center;
+    font-family: Viga;
+    font-size: 25px;
+}
+.sect1 hr {
+    width: 250px;
+    border-top: 4px solid black;
+}
+.sect2 {
+    min-height: 530px;
+}
+.sect2 h2 {
+    text-align: center;
+    font-family: Viga;
+    font-size: 25px;
+}
+.sect2 hr {
+    width: 250px;
+    border-top: 4px solid black;
+}
+.sectionUser {
+    min-height: 410px;
+}
+.sectionUser h2 {
+    text-align: center;
+    font-family: Viga;
+    font-size: 25px;
+}
+.sectionUser hr {
+    width: 250px;
+    border-top: 4px solid black;
+}
+.navbar .fontnews {
+    font-family: Viga;
+    font-size: 32px;
+}
+.regis h2 {
+    text-align: center;
+    font-family: Viga;
+    font-size: 25px;
+}
+.regis hr {
+    width: 250px;
+    border-top: 4px solid black;
+}
+#content h3 {
+    text-align: center;
+    font-family: Viga;
+    font-size: 25px;
+}
+#content hr {
+    width: 250px;
+    border-top: 4px solid black;
+}
+.sect1 .link {
+    color: black;
+}
+.jumbotron .ig {
+    color: black;
+}
+
+
+
+
+
+
+
+/* Desktop Version */
+@media (min-width: 992px) {
+    .navbar-brand .nav-link {
+        text-shadow: 1px 1px 1px gainsboro;
+    }
+    .nav-link {
+        margin-right: 30px;
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid black;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .jumbotron {
+        margin-top: -75px;
+    }
+}
